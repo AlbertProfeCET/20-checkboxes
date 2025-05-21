@@ -1,0 +1,83 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+form{
+    padding:20px;
+    background-color: brown;
+    width:50%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+main{
+display: flex;
+justify-content: space-around;
+}
+
+section{
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(214, 214, 149);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.443);
+    border-radius: 10px;
+    width: 35%;
+    min-width: 120px;
+    max-width: 450px;
+}
+
+.containerEstils{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit]{
+    width:20%;
+    background-color: beige;
+    color: darkgreen;
+    margin: auto;
+    outline: none;
+    border: none;
+}
+
+input[type=submit]:hover{
+    width: 30%;
+    transition: .5s;
+    background-color: rgb(66, 46, 2);
+    color: lightgreen;
+}
+
+input[type=radio]{
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+input[type=radio]:checked{
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(48, 148, 55);
+    box-shadow: 2px 2px 2px grey;
+}
+
+input[type=checkbox]:checked{
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    background-color:  rgb(48, 148, 55);
+    box-shadow: 2px 2px 2px grey;
+}
