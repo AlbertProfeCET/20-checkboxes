@@ -12,6 +12,7 @@ form{
     padding:20px;
     background-color: brown;
     width:50%;
+    min-width: 340px;
     margin: auto;
 
     display: flex;
